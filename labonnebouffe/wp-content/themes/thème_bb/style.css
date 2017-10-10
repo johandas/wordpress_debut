@@ -1,0 +1,267 @@
+/*
+    Theme Name: theme_bb
+    Author: Johan
+    Description: Thème crée en cours de Wordpress avec l'équipe de Villeneuve !
+    Text Domain: theme_bb
+*/
+
+* {
+    margin : 0;
+    padding : 0;
+    border : 0;
+    font-size : 100%;
+    font : inherit;
+    vertical-align: baseline;
+}
+body {
+    font-family: 'Ubuntu', sans-serif;
+    font-size : 14px;
+    margin : 0;
+    background : #f2f2f2;
+}
+
+/**************** HEADER + MENU *******/
+
+header  {
+    height: 190px;
+    margin : 0px;
+    text-align : center;
+    background : #4a515b;
+    text-transform: UPPERCASE;
+    position: relative;
+}
+nav {
+    position : relative;
+}
+
+header li {
+    display : inline-block;
+    list-style : none;
+}
+header ul {
+    margin : 0;
+}
+
+header a {
+    display : inline-block;
+    color : #FFF;
+    padding : 0 15px;
+    text-decoration : none;
+}
+
+header a:hover{
+    background : #3e88be;
+    transition: 1s;
+}
+
+header #menu-principal {
+    line-height: 45px;
+}
+/*header .sub-menu {
+    line-height: 20px;
+}
+header #informations {
+    float : left;
+    width: 20%;
+    color: #FFF;
+    line-height: 45px;
+}*/
+.nomDusite {
+    color : #FFF;
+    padding : 2px 30px;
+}
+.text-description {
+    float : right;
+    font-style : italic;
+    font-size : 10px;
+    line-height: 45px;
+    color: #FFF;
+    margin-right : 5%;
+}
+
+nav {
+    float: left ;
+    position : relative ;
+}
+
+nav ul.sub-menu {
+    display : none;
+    width: 150px;
+    position : absolute
+}
+
+nav li {
+    background : #CCCC;
+    float :left;
+}
+nav li a {
+    text-decoration: none;
+    padding : 1px 0 16px;
+    display : block;
+    width: 150px;
+}
+nav li a:hover {
+    transition: 0.2s;
+    border-bottom: 1px solid white;
+}
+nav ul {
+    padding : 0;
+    margin : 0px;
+    text-align : center ;
+
+}
+
+nav ul li.menu-item-has-children:hover ul.sub-menu {
+    display : block;
+    background : #4a515b;
+    transition : all 1s;
+}
+
+/***************** HEADER + MENU ****************/
+/***************** SECTION ******************/
+h2 a {
+    color : black;
+    text-decoration: none;
+}
+h2 {
+    text-transform: black;
+    margin-bottom: 20px;
+
+    font-size: 1.8rem;
+}
+p {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-size: 1.2rem;
+}
+
+section {
+    /*background: #F5F4ED;*/
+    padding : 30px;
+
+}
+
+.conteneur {
+    margin : 0 auto;
+    max-width: 1170px;
+
+}
+
+.home #entete {
+    min-height: 537px;
+    background : url(assets/1.jpg)  no-repeat;
+    width: 100%;
+}
+
+.slogan {
+    color : #FFF;
+    text-align: center;
+    font-size: 30px;
+    margin : 100px 0 100px 0;
+}
+
+.rechercher label {
+    display: none;
+}
+.rechercher #s {
+    color : white;
+    background : rgba(0, 0, 0 , 0.5);
+    width: 30%;
+    padding : 10px 271px 15px 46px;
+    font-size: 20px;
+}
+
+.rechercher #searchsubmit {
+    margin-left: -4px;
+    color : white;
+    background : #4a515b;
+    padding: 16px;
+}
+.rechercher #searchsubmit:hover {
+    color: black;
+    transition: 1s;
+    background :  transparent;
+    cursor : pointer;
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+}
+.rechercher #s:focus {
+    border: transparent;
+}
+.rechercher {
+
+    list-style: none;
+    text-align : center ;
+}
+
+form#searchform.searchform {
+    display: inline-block;
+    position: relative;
+    left: 7%;
+}
+.photo, .telephone, .horaires, .adresse, .carte, .laCarte, .acces, .typeCuisine, .prixMoyen, .brunch, .promotion {
+    font-size: 1.2rem;
+    padding: 5px 0 5px 10px;
+    /*border-top: 1px solid ;*/
+    border-right: 1px solid #dedede ;
+    border-left: 1px solid #dedede;
+    text-decoration: none;
+}
+.horaires {
+
+}
+
+.photo {
+    border-top : 1px solid #dedede;
+}
+
+.carte {
+    border-bottom : 2px solid #dedede;
+}
+.laCarte {
+    border-top: 1px solid #dedede;
+    border-bottom: 1px solid #dedede;
+}
+.laCarte ul li     {
+    list-style-type: none;
+}
+.laCarte {
+    text-align: center;
+}
+.photo {
+    margin-top: 50px;
+}
+.informations {
+    font-weight: bold;
+    font-size: 2.3rem;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    position: relative;
+    top: 59px;
+    text-align: center;
+}
+.photo img {
+    margin: 0 auto;
+    height: 500px;
+    width: 99%;
+}
+/*FOOOTER */
+
+footer {
+    border-top: 5px solid white;
+    line-height: 4;
+    background : #4a515b;
+    text-align: center;
+    min-height: 50px;
+}
+footer  a {
+    font-size: 18px;
+    color: white;
+    text-transform: none;
+    text-decoration: none;
+}
+.postmetada a {
+
+    color : black;
+
+}
